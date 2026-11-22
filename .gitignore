@@ -1,0 +1,21 @@
+# Proprietary inputs and generated artefacts stay local.
+*.apk
+*.apks
+*.aab
+*.xapk
+*.dex
+*.hbc
+*.so
+*.jks
+*.keystore
+*.pk8
+*.pem
+*.zip
+__pycache__/
+*.py[cod]
+.venv/
+.local/
+local.properties
+build/
+dist/
+.DS_Store

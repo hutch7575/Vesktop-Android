@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "status": "research_only",
+  "patch_supported": false,
+  "base": {
+    "package": "com.discord",
+    "version_code": 354012,
+    "sha256": "15407f2d5431166247abfb6c8edbeb368b84ae2b17ef57e4b851db29066f7167",
+    "bundle_sha256": "7d5e9fd331035f6c6fa354c5a7bbe83b546ed8b466aadd2a9bc4d7ec7958ed77",
+    "hermes_bytecode_version": 98
+  }
+}

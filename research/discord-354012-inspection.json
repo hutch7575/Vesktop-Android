@@ -1,0 +1,63 @@
+{
+  "apks": [
+    {
+      "bundle": {
+        "format": "hermes_bytecode",
+        "hermes_bytecode_version": 98,
+        "path": "assets/index.android.bundle",
+        "sha256": "7d5e9fd331035f6c6fa354c5a7bbe83b546ed8b466aadd2a9bc4d7ec7958ed77",
+        "size_bytes": 51017904
+      },
+      "dex_files": [
+        "classes.dex",
+        "classes2.dex",
+        "classes3.dex"
+      ],
+      "entry_count": 9295,
+      "expanded_size_bytes": 121367447,
+      "file_name": "Discord_354.12 - Stable.apk",
+      "manifest": {
+        "config_for_split": null,
+        "is_feature_split": false,
+        "min_sdk": 24,
+        "package": "com.discord",
+        "play_splits_required": true,
+        "required_split_types": "base__abi,base__density",
+        "split": null,
+        "split_required": false,
+        "split_types": "",
+        "target_sdk": 36,
+        "uses_splits": [],
+        "version_code": 354012,
+        "version_code_major": 0,
+        "version_name": "354.12 - Stable"
+      },
+      "manifest_sha256": "1735f933434bb68d254e957154ab3f48d62e7c102f45546fffa2c9ff7e498c57",
+      "native_libraries": [],
+      "sha256": "15407f2d5431166247abfb6c8edbeb368b84ae2b17ef57e4b851db29066f7167",
+      "signature_verification": "not_performed",
+      "size_bytes": 97527495
+    }
+  ],
+  "schema_version": 1,
+  "set": {
+    "blockers": [
+      "Base APK declares required splits; none were supplied",
+      "Hermes bundle is present but the supplied set has no native libraries",
+      "Missing declared split type: base__abi",
+      "Missing declared split type: base__density"
+    ],
+    "declared_requirements_met": false,
+    "installation_verified": false,
+    "native_abis": [],
+    "patch_supported": false,
+    "provided_split_types": [],
+    "reason": "Research tooling only; no Android loader or production patch recipe implemented",
+    "required_split_types": [
+      "base__abi",
+      "base__density"
+    ],
+    "signature_verification": "not_performed"
+  },
+  "tool_version": "0.1.0.dev0"
+}
